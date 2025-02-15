@@ -4,7 +4,7 @@ public class BinaryConverter {
 
     public static void main(String[] args) {
         int number = Integer.parseInt(args[0]);
-        Stack stack = new Stack();
+        IStack stack = new DynamicStack();
 
         while (number != 0) {
             int rest = number % 2;

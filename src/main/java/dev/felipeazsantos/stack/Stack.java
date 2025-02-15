@@ -1,6 +1,6 @@
 package dev.felipeazsantos.stack;
 
-public class Stack {
+public class Stack implements IStack {
 
     private final int[] values;
     private int top;
